@@ -168,35 +168,38 @@
     </section>
 
     <!-- Hardware Showcase -->
-    <section id="hardware" class="py-24 relative overflow-hidden">
-        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-           <div class="relative">
-    <div
-        class="w-full h-80 bg-gradient-to-br from-gray-900 via-blue-900/10 to-black rounded-3xl border border-white/10 shadow-2xl flex items-center justify-center overflow-hidden">
+  <section id="hardware" class="py-24 relative overflow-hidden">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-        <!-- 你的图片 -->
-        <img src="myir.png" alt="VclawV Device"
-            class="h-full object-contain p-6">
+            <!-- 左边图片 -->
+            <div class="relative">
+                <div class="w-full h-[420px] rounded-3xl border border-white/10 shadow-2xl overflow-hidden relative bg-black/30">
+                    
+                    <img src="myir.png" alt="VclawV Device"
+                        class="w-full h-full object-cover">
 
-        <!-- 背景光效（保留你原来的高级感） -->
-        <div
-            class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.1)_0%,transparent_70%)]">
-        </div>
-    </div>
+                    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.08)_0%,transparent_70%)]"></div>
+                </div>
 
-    <div class="absolute -top-6 -left-6 w-32 h-32 bg-blue-600/10 blur-3xl"></div>
-</div>
                 <div class="absolute -top-6 -left-6 w-32 h-32 bg-blue-600/10 blur-3xl"></div>
             </div>
+
+            <!-- 右边内容 -->
             <div>
-                <h2 class="text-4xl font-bold mb-6">Integrated Local <span class="text-blue-500">AI Box</span></h2>
-                <p class="text-gray-400 mb-8 text-lg">
-                    A dedicated compute hub tailored for the Claw architecture. It’s more than a device; it’s the
-                    physical brain for your Personal AI.
+                <h2 class="text-4xl font-bold mb-6">
+                    Integrated Local <span class="text-blue-500">AI Box</span>
+                </h2>
+
+                <p class="text-gray-400 mb-8 text-lg leading-relaxed">
+                    A dedicated compute hub tailored for the Claw architecture. It’s more than a device;
+                    it’s the physical brain for your Personal AI.
                 </p>
+
                 <div class="space-y-6">
+
                     <div class="flex items-center p-4 bg-white/5 rounded-xl border border-white/5">
-                        <div class="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center mr-4">
+                        <div class="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center mr-4 shrink-0">
                             <i data-lucide="cpu" class="text-blue-400 w-6 h-6"></i>
                         </div>
                         <div>
@@ -204,8 +207,9 @@
                             <p class="text-sm text-gray-400">Rockchips powered for industry-leading efficiency.</p>
                         </div>
                     </div>
+
                     <div class="flex items-center p-4 bg-white/5 rounded-xl border border-white/5">
-                        <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mr-4">
+                        <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mr-4 shrink-0">
                             <i data-lucide="network" class="text-purple-400 w-6 h-6"></i>
                         </div>
                         <div>
@@ -213,10 +217,13 @@
                             <p class="text-sm text-gray-400">Native support for Google Gemini and other top models.</p>
                         </div>
                     </div>
+
                 </div>
             </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Ecosystem -->
     <section id="ecosystem" class="py-20 bg-black/50 border-y border-white/5">
